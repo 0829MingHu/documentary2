@@ -10,7 +10,7 @@ from yt_dlp import YoutubeDL
 from channel_search import ChannelSearch
 
 warnings.filterwarnings('ignore')
-download_videos = False
+download_videos = True
 
 NUMS = 100  # maximal items you can download
 iMaxDuration = 1200# maximal duration in seconds
